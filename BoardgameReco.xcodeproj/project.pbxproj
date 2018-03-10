@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220301D09DFC3E1CDB6DFDA0 /* Pods_BoardgameRecoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9F40C0F5E97C90A70113CF /* Pods_BoardgameRecoTests.framework */; };
+		47DF9E22207EF3A837E750B1 /* Pods_BoardgameReco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FE25974F077BB785636294 /* Pods_BoardgameReco.framework */; };
 		96C0491B2053DEB70010B6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0491A2053DEB70010B6D5 /* AppDelegate.swift */; };
 		96C0491D2053DEB70010B6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0491C2053DEB70010B6D5 /* ViewController.swift */; };
 		96C049202053DEB70010B6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0491E2053DEB70010B6D5 /* Main.storyboard */; };
 		96C049222053DEB70010B6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C049212053DEB70010B6D5 /* Assets.xcassets */; };
 		96C049252053DEB70010B6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C049232053DEB70010B6D5 /* LaunchScreen.storyboard */; };
 		96C049302053DEB70010B6D5 /* BoardgameRecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0492F2053DEB70010B6D5 /* BoardgameRecoTests.swift */; };
+		96C0493B2053DF390010B6D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0493A2053DF390010B6D5 /* Model.swift */; };
+		96C0493C2053DF400010B6D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0493A2053DF390010B6D5 /* Model.swift */; };
+		96C0493E2053DF6C0010B6D5 /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96C0493D2053DF6C0010B6D5 /* data.csv */; };
+		96C049402053DF740010B6D5 /* boardgame.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96C0493F2053DF740010B6D5 /* boardgame.csv */; };
+		96C049422053E1A90010B6D5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049412053E1A90010B6D5 /* ViewModel.swift */; };
+		96C049432053E1A90010B6D5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049412053E1A90010B6D5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0039937F5E399C79351E62ED /* Pods-BoardgameRecoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameRecoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameRecoTests/Pods-BoardgameRecoTests.release.xcconfig"; sourceTree = "<group>"; };
+		35FE25974F077BB785636294 /* Pods_BoardgameReco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardgameReco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62298DF5B353D3714E6554BF /* Pods-BoardgameReco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameReco.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco.release.xcconfig"; sourceTree = "<group>"; };
 		96C049172053DEB70010B6D5 /* BoardgameReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardgameReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C0491A2053DEB70010B6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96C0491C2053DEB70010B6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +47,13 @@
 		96C0492B2053DEB70010B6D5 /* BoardgameRecoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardgameRecoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C0492F2053DEB70010B6D5 /* BoardgameRecoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgameRecoTests.swift; sourceTree = "<group>"; };
 		96C049312053DEB70010B6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C0493A2053DF390010B6D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = /Users/homahi/workspace/BoardgameReco/BoardgameReco/Model.swift; sourceTree = "<absolute>"; };
+		96C0493D2053DF6C0010B6D5 /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		96C0493F2053DF740010B6D5 /* boardgame.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boardgame.csv; sourceTree = "<group>"; };
+		96C049412053E1A90010B6D5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BF8016397C7F4390DAC28794 /* Pods-BoardgameReco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameReco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco.debug.xcconfig"; sourceTree = "<group>"; };
+		D73B270BE171EC67454476AE /* Pods-BoardgameRecoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameRecoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameRecoTests/Pods-BoardgameRecoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC9F40C0F5E97C90A70113CF /* Pods_BoardgameRecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardgameRecoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47DF9E22207EF3A837E750B1 /* Pods_BoardgameReco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220301D09DFC3E1CDB6DFDA0 /* Pods_BoardgameRecoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35EFFC372E2CA289D6E95823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FE25974F077BB785636294 /* Pods_BoardgameReco.framework */,
+				FC9F40C0F5E97C90A70113CF /* Pods_BoardgameRecoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96C0490E2053DEB70010B6D5 = {
 			isa = PBXGroup;
 			children = (
 				96C049192053DEB70010B6D5 /* BoardgameReco */,
 				96C0492E2053DEB70010B6D5 /* BoardgameRecoTests */,
 				96C049182053DEB70010B6D5 /* Products */,
+				BC88829DAEC4EEAC59AA5B9D /* Pods */,
+				35EFFC372E2CA289D6E95823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +108,15 @@
 		96C049192053DEB70010B6D5 /* BoardgameReco */ = {
 			isa = PBXGroup;
 			children = (
+				96C0493D2053DF6C0010B6D5 /* data.csv */,
+				96C0493A2053DF390010B6D5 /* Model.swift */,
 				96C0491A2053DEB70010B6D5 /* AppDelegate.swift */,
 				96C0491C2053DEB70010B6D5 /* ViewController.swift */,
+				96C049412053E1A90010B6D5 /* ViewModel.swift */,
 				96C0491E2053DEB70010B6D5 /* Main.storyboard */,
 				96C049212053DEB70010B6D5 /* Assets.xcassets */,
 				96C049232053DEB70010B6D5 /* LaunchScreen.storyboard */,
+				96C0493F2053DF740010B6D5 /* boardgame.csv */,
 				96C049262053DEB70010B6D5 /* Info.plist */,
 			);
 			path = BoardgameReco;
@@ -96,6 +131,17 @@
 			path = BoardgameRecoTests;
 			sourceTree = "<group>";
 		};
+		BC88829DAEC4EEAC59AA5B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8016397C7F4390DAC28794 /* Pods-BoardgameReco.debug.xcconfig */,
+				62298DF5B353D3714E6554BF /* Pods-BoardgameReco.release.xcconfig */,
+				D73B270BE171EC67454476AE /* Pods-BoardgameRecoTests.debug.xcconfig */,
+				0039937F5E399C79351E62ED /* Pods-BoardgameRecoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96C049342053DEB70010B6D5 /* Build configuration list for PBXNativeTarget "BoardgameReco" */;
 			buildPhases = (
+				552EAD701DB2D87CCDB658C3 /* [CP] Check Pods Manifest.lock */,
 				96C049132053DEB70010B6D5 /* Sources */,
 				96C049142053DEB70010B6D5 /* Frameworks */,
 				96C049152053DEB70010B6D5 /* Resources */,
+				692B6563B30B6EDD4B2A9F71 /* [CP] Embed Pods Frameworks */,
+				6A4859912F4CC051802F204F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96C049372053DEB70010B6D5 /* Build configuration list for PBXNativeTarget "BoardgameRecoTests" */;
 			buildPhases = (
+				754DBCC8CC837345FE077D31 /* [CP] Check Pods Manifest.lock */,
 				96C049272053DEB70010B6D5 /* Sources */,
 				96C049282053DEB70010B6D5 /* Frameworks */,
 				96C049292053DEB70010B6D5 /* Resources */,
+				237A277931FBDD98A87B83E4 /* [CP] Embed Pods Frameworks */,
+				FEC9C0EFDED8285C9F325FD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,8 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C0493E2053DF6C0010B6D5 /* data.csv in Resources */,
 				96C049252053DEB70010B6D5 /* LaunchScreen.storyboard in Resources */,
 				96C049222053DEB70010B6D5 /* Assets.xcassets in Resources */,
+				96C049402053DF740010B6D5 /* boardgame.csv in Resources */,
 				96C049202053DEB70010B6D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,12 +248,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237A277931FBDD98A87B83E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoardgameRecoTests/Pods-BoardgameRecoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552EAD701DB2D87CCDB658C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoardgameReco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		692B6563B30B6EDD4B2A9F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4859912F4CC051802F204F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754DBCC8CC837345FE077D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoardgameRecoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC9C0EFDED8285C9F325FD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoardgameRecoTests/Pods-BoardgameRecoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96C049132053DEB70010B6D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C0493B2053DF390010B6D5 /* Model.swift in Sources */,
 				96C0491D2053DEB70010B6D5 /* ViewController.swift in Sources */,
+				96C049422053E1A90010B6D5 /* ViewModel.swift in Sources */,
 				96C0491B2053DEB70010B6D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +369,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C049302053DEB70010B6D5 /* BoardgameRecoTests.swift in Sources */,
+				96C049432053E1A90010B6D5 /* ViewModel.swift in Sources */,
+				96C0493C2053DF400010B6D5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +513,7 @@
 		};
 		96C049352053DEB70010B6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8016397C7F4390DAC28794 /* Pods-BoardgameReco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +528,7 @@
 		};
 		96C049362053DEB70010B6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62298DF5B353D3714E6554BF /* Pods-BoardgameReco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +543,7 @@
 		};
 		96C049382053DEB70010B6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73B270BE171EC67454476AE /* Pods-BoardgameRecoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +560,7 @@
 		};
 		96C049392053DEB70010B6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0039937F5E399C79351E62ED /* Pods-BoardgameRecoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

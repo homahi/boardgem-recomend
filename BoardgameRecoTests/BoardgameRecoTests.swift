@@ -24,6 +24,14 @@ class BoardgameRecoTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let model = Model(path: "boardgame")
+        let boardgame = model.getBoardgames().value
+        
+        XCTAssertEqual(boardgame[0].name, "Agricola")
+        XCTAssertEqual(boardgame[0].minPlayers, 1)
+        XCTAssertEqual(boardgame[0].maxPlayers, 5)
+        XCTAssertEqual(boardgame[0].playingTime, 150)
+        XCTAssertEqual(boardgame[0].image_url,"https://cf.geekdo-images.com/original/img/L-UBO3rBOmvIrZHZLSXOypyAUPw=/0x0/pic259085.jpg")
     }
     
     func testPerformanceExample() {
