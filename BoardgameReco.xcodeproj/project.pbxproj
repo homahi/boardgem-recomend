@@ -21,6 +21,10 @@
 		96C049402053DF740010B6D5 /* boardgame.csv in Resources */ = {isa = PBXBuildFile; fileRef = 96C0493F2053DF740010B6D5 /* boardgame.csv */; };
 		96C049422053E1A90010B6D5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049412053E1A90010B6D5 /* ViewModel.swift */; };
 		96C049432053E1A90010B6D5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049412053E1A90010B6D5 /* ViewModel.swift */; };
+		96C049462054B0290010B6D5 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049442054B0290010B6D5 /* ModalViewController.swift */; };
+		96C049472054B0290010B6D5 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C049442054B0290010B6D5 /* ModalViewController.swift */; };
+		96C049482054B0290010B6D5 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C049452054B0290010B6D5 /* ModalViewController.xib */; };
+		96C049492054B0290010B6D5 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C049452054B0290010B6D5 /* ModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		96C0493D2053DF6C0010B6D5 /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
 		96C0493F2053DF740010B6D5 /* boardgame.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boardgame.csv; sourceTree = "<group>"; };
 		96C049412053E1A90010B6D5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		96C049442054B0290010B6D5 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		96C049452054B0290010B6D5 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		BF8016397C7F4390DAC28794 /* Pods-BoardgameReco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameReco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameReco/Pods-BoardgameReco.debug.xcconfig"; sourceTree = "<group>"; };
 		D73B270BE171EC67454476AE /* Pods-BoardgameRecoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoardgameRecoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoardgameRecoTests/Pods-BoardgameRecoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC9F40C0F5E97C90A70113CF /* Pods_BoardgameRecoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoardgameRecoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +118,8 @@
 				96C0493A2053DF390010B6D5 /* Model.swift */,
 				96C0491A2053DEB70010B6D5 /* AppDelegate.swift */,
 				96C0491C2053DEB70010B6D5 /* ViewController.swift */,
+				96C049442054B0290010B6D5 /* ModalViewController.swift */,
+				96C049452054B0290010B6D5 /* ModalViewController.xib */,
 				96C049412053E1A90010B6D5 /* ViewModel.swift */,
 				96C0491E2053DEB70010B6D5 /* Main.storyboard */,
 				96C049212053DEB70010B6D5 /* Assets.xcassets */,
@@ -233,6 +241,7 @@
 			files = (
 				96C0493E2053DF6C0010B6D5 /* data.csv in Resources */,
 				96C049252053DEB70010B6D5 /* LaunchScreen.storyboard in Resources */,
+				96C049482054B0290010B6D5 /* ModalViewController.xib in Resources */,
 				96C049222053DEB70010B6D5 /* Assets.xcassets in Resources */,
 				96C049402053DF740010B6D5 /* boardgame.csv in Resources */,
 				96C049202053DEB70010B6D5 /* Main.storyboard in Resources */,
@@ -243,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C049492054B0290010B6D5 /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96C0493B2053DF390010B6D5 /* Model.swift in Sources */,
+				96C049462054B0290010B6D5 /* ModalViewController.swift in Sources */,
 				96C0491D2053DEB70010B6D5 /* ViewController.swift in Sources */,
 				96C049422053E1A90010B6D5 /* ViewModel.swift in Sources */,
 				96C0491B2053DEB70010B6D5 /* AppDelegate.swift in Sources */,
@@ -368,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C049472054B0290010B6D5 /* ModalViewController.swift in Sources */,
 				96C049302053DEB70010B6D5 /* BoardgameRecoTests.swift in Sources */,
 				96C049432053E1A90010B6D5 /* ViewModel.swift in Sources */,
 				96C0493C2053DF400010B6D5 /* Model.swift in Sources */,

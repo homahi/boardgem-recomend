@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         populateBoardgameTableView()
+        setupBoardgameSelected()
         setPlayer()
     }
 
@@ -47,6 +48,17 @@ class ViewController: UIViewController {
 
         })
     }
-
+    
+    private func setupBoardgameSelected() {
+        tableView.rx.itemSelected
+            .map{ indexPath in
+                self.viewModel.getBoargames().value[indexPath.row]
+            }
+            .subscribe(onNext: { boardgame in
+                let vc = ModalViewController()
+                vc.boardgame = boardgame
+                self.present(vc,animated: true, completion:nil)
+            })
+    }
 }
 
